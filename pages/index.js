@@ -15,7 +15,6 @@ export async function getStaticProps() {
 }
 
 export default function Home({ allPostsData }) {
-  console.log('?');
   return (
     <Layout home>
       <div className="container">
